@@ -69,44 +69,75 @@ h4
 	color:floralwhite
 }
 /* Sidebar */
-#content .sidebar {
-	font-family: 'Area Normal', sans-serif;
-	color: rgba(146,146,146,1.00);
-	float: left;
-	width: 20%;
-	padding-left: 3%;
-	padding-right: 3%;
-	text-align: center;
-	background-color:orange;
-	padding-top: 36px;
-	height: 784px;
-}
-/* main content of the site */
-#content .mainContent {
-	float: left;
-	width: 70%;
-	text-align: center;
-	padding-left: 4%;
-}
-/*menubar's properties for menus in sidebar */
-#content .sidebar #menubar {
-	text-align: left;
-	color: rgba(255,255,255,1.00);
+.wrapper{
+	display: flex;
 	position: relative;
-	left: 0%;
-}
-/* Search field in sidebar */
-#content .sidebar #search {
-	width: 100%;
-	border-color: white;
-	font-family: 'Area Normal';
-	height: 39px;
+	
+  }
+  
+  .wrapper .sidebar{
+	width: 200px;
+	height: 100%;
+	background: #4b4276;
+	padding: 0px;
+	position: fixed;
+	margin-right: 200px;
+	
+	
+	
+  }
+  
+  .wrapper .sidebar h2{
+	color: #fff;
+	text-transform: uppercase;
 	text-align: center;
-	color: rgba(208,207,207,1.00);
-	font-size: 17px;
-	;
-	margin-bottom: 10px;
-}
+	margin-bottom: 30px;
+  }
+  
+  .wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid #bdb8d7;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .wrapper .sidebar ul li a{
+	color: #bdb8d7;
+	display: block;
+  }
+  
+  .wrapper .sidebar ul li a .fas{
+	width: 25px;
+  }
+  
+  .wrapper .sidebar ul li:hover{
+	background-color: #594f8d;
+  }
+	  
+  .wrapper .sidebar ul li:hover a{
+	color: #fff;
+  }
+   
+  .wrapper .sidebar .social_media{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+  }
+  
+  .wrapper .sidebar .social_media a{
+	display: block;
+	width: 40px;
+	background: #594f8d;
+	height: 40px;
+	line-height: 45px;
+	text-align: center;
+	margin: 0 5px;
+	color: #bdb8d7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+  }
 /* Whole page content */
 #mainWrapper {
 	width: 80%;
