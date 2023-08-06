@@ -140,8 +140,8 @@ h4
   }
 /* Whole page content */
 #mainWrapper {
-	width: 80%;
-	padding-left: 10%;
+	width: 100%;
+	/* padding-left: 10%; */
 }
 /*menu elements */
 .menu ul li {
