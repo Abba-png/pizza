@@ -1,4 +1,9 @@
+@charset "UTF-8";
+/* Global Styles */
 
+body{
+  background-color:black;
+}
 a:hover {
 	color:floralwhite;
 }
@@ -18,30 +23,30 @@ header {
 	width: 139px;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
-	background-color:whitesmoke;
+	background-color:black;
 }
 /* div for Links in header */
 #headerLinks {
 	float: left;
 	width: calc( 100% - 139px );
-	text-align: right;
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: rgba(255,255,255,1.00);
+	background-color: orangered;
 }
 /* Links in header */
 #headerLinks a {
 	text-decoration: none;
-	color: rgba(146,146,146,1.00);
-	padding-left: 66px;
+	color: white;
+	padding-left: 126px;
 	font-size: 14px;
-}
+} 
 #offer {
 	font-family: 'Area Extended Black', sans-serif;
 	font-size: 21px;
 	font-size-adjust: auto;
 	clear: both;
-	background-color:#ffa500;
+	background-color:black
 	color: black;
 	padding-left: 130px;
 	padding-top: 20px;
@@ -78,7 +83,7 @@ h4
 	width: 15%;
 	margin-right: 15%;
 	height: 100%;
-	background: #006491;
+	background: black;
 	padding: 0px;
 position:absolute;
 
@@ -110,7 +115,7 @@ position:absolute;
   }
   
   .wrapper .sidebar ul li:hover{
-	background-color: green;
+	background-color: red;
   }
 	  
   .wrapper .sidebar ul li:hover a{
@@ -200,7 +205,7 @@ position:absolute;
 #mainWrapper footer {
 	clear: both;
 	overflow: auto;
-	background-color:#ffa500;
+	background-color:black;
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
@@ -222,7 +227,7 @@ position:absolute;
 }
 /* Links in footer */
 footer div a {
-	color: rgba(146,146,146,1.00);
+	color: whitesmoke;
 	display: block;
 	text-decoration: none;
 	text-align: center;
@@ -309,6 +314,7 @@ footer .footerlinks {
 	width: 44%;
 	text-align: justify;
 	font-size: 15px;
+	color: #3b3b3b;
 }
 /* Links in footer */
 .footerlinks p a {
@@ -331,7 +337,7 @@ header #headerLinks a {
 #mainWrapper #offer {
 	width: 100px;
 		height: 100px;
-		background-color: red;
+		background-color:  orangered;
 		animation-name: example;
 		animation-duration: 4s;
 		animation-iteration-count:
@@ -414,23 +420,23 @@ header #headerLinks a {
 }
 }
  h1{
-	color: red;
+	color: whitesmoke;
 	font-family: sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    -ms-flex-item-align: center;
     align-self: center;
-    font-size: 23px;
+    font-size: 15px;
     letter-spacing: .025rem;
     line-height: 1;
     padding: 0 0.25em;
     text-align: center;
     text-transform: uppercase;
-    word-break: break-word
+    word-break: break-word;
+	font-family: cursive;
  }
  h2{
-	color: red;
-	text-align: center;
+	color:whitesmoke;
+text-align: center;
 	text-decoration: dotted;
 	text-shadow: #ffa500;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
