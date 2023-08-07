@@ -1,5 +1,3 @@
-@charset "UTF-8";
-/* Global Styles */
 
 a:hover {
 	color:floralwhite;
@@ -20,7 +18,7 @@ header {
 	width: 139px;
 	text-align: center;
 	color: rgba(255,255,255,1.00);
-	background-color: #e64535;
+	background-color:whitesmoke;
 }
 /* div for Links in header */
 #headerLinks {
@@ -63,6 +61,7 @@ h3
 	align-self: auto;
 	color: floralwhite;
 	background-color:orangered;
+	text-align: center;
 }
 h4
 {
@@ -78,18 +77,17 @@ h4
   .wrapper .sidebar{
 	width: 15%;
 	margin-right: 15%;
-
 	height: 100%;
-	background: #4b4276;
+	background: #006491;
 	padding: 0px;
-	position: fixed;
+position:absolute;
+
 	
 	
 	
   }
   
-  .wrapper .sidebar h2{
-	color: #fff;
+  .wrapper .sidebar h5{
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 30px;
@@ -103,7 +101,7 @@ h4
   }    
   
   .wrapper .sidebar ul li a{
-	color: #bdb8d7;
+	color: whitesmoke;
 	display: block;
   }
   
@@ -112,7 +110,7 @@ h4
   }
   
   .wrapper .sidebar ul li:hover{
-	background-color: #594f8d;
+	background-color: green;
   }
 	  
   .wrapper .sidebar ul li:hover a{
@@ -196,12 +194,13 @@ h4
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 8px;
+	
 	}
 /* footer */
 #mainWrapper footer {
 	clear: both;
 	overflow: auto;
-	background-color: rgba(208,207,207,1.00);
+	background-color:#ffa500;
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
@@ -233,26 +232,8 @@ footer div a {
 	width: 100%;
 }
 /*Links in sidebar */
-.sidebar #menubar .menu ul li a {
-	color: rgba(146,146,146,1.00);
-	text-decoration: none;
-}
-.sidebar #menubar .menu ul li a:hover {
-	color: rgba(107,97,97,1.00);
-	text-decoration: none;
-}
-/* Menu headings in sidebar */
-#menubar .menu h2 {
-	font-size: 14px;
-}
-/*Links under menus in sidebar */
-#menubar .menu ul li a {
-	font-size: 14px;
-}
-/* Menus in sidebar */
-.sidebar #menubar .menu {
-	margin-bottom: 29px;
-}
+
+
 /* Container for links in footer */
 footer .footerlinks {
 	margin-top: -15px;
@@ -284,42 +265,7 @@ footer .footerlinks {
 	width: 100%;
 	overflow: hidden;
 }
-/*menu headings in sidebar */
-#menubar .menu h2 {
-	display: inline;
-	font-size: medium;
-	padding-right: 6%;
-}
-/* Unordered List of links */
-#menubar .menu ul {
-	display: inline;
-}
-/*list elements */
-#menubar .menu ul li {
-	display: inline;
-	font-size: medium;
-	padding-left: 0%;
-	padding-right: 3%;
-}
-/*The link to be hidden in tablet view */
-.sidebar #menubar .menu ul .notimp {
-	display: none;
-}
-/* menus in sidebar */
-.sidebar #menubar .menu {
-	width: 100%;
-	text-align: center;
-	position: relative;
-	top: 16px;
-}
-/*menubar in sidebar */
-#content .sidebar #menubar {
-	position: relative;
-	left: -7%;
-	overflow: hidden;
-	width: 95%;
-	padding-top: 0px;
-}
+
 /* offer banners content */
 #mainWrapper #offer p {
 	font-size: small;
@@ -383,7 +329,13 @@ header #headerLinks a {
 }
 /* Offer- Text banner */
 #mainWrapper #offer {
-	padding-left: 22%;
+	width: 100px;
+		height: 100px;
+		background-color: red;
+		animation-name: example;
+		animation-duration: 4s;
+		animation-iteration-count:
+	padding-left:22%;
 }
 /* Paragraphs in footer */
 footer .footerlinks p {
@@ -461,3 +413,29 @@ header #headerLinks a {
 	
 }
 }
+ h1{
+	color: red;
+	font-family: sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 23px;
+    letter-spacing: .025rem;
+    line-height: 1;
+    padding: 0 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-word
+ }
+ h2{
+	color: red;
+	text-align: center;
+	text-decoration: dotted;
+	text-shadow: #ffa500;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+	text-decoration: solid;
+font-style: oblique;
+font-size: larger;}
