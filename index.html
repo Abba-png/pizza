@@ -15,10 +15,20 @@
     background-color: black; 
     padding:20px
   }
-  .carryout:hover{
-    background-color:rgb(255, 200, 0);
-    color: darkgreen;
+  .carryout:hover, .carryout:hover{
+    background-color:orangered;
+    color: white;
   }
+
+
+  .productRow .productInfo .buyButton:hover{
+    background-color:white;
+    color: orangered;
+
+  }
+
+
+
 
 
 </style>
@@ -41,7 +51,7 @@
         <div style="background-color: transparent; color: black; display: flex; justify-content: space-between; padding: 0;">
           <h1> A PIZZA SLICE A DAY KEEPS SADNESS AWAY.</h1>
           <div>
-              <a style="color: white; background-color:#; padding:20px"  href="#delivery">Delivery</a>
+              <a  class="carryout"  href="#delivery">Delivery</a>
               <span  style="color: whitesmoke;">or</span>
               <a  class="carryout" href="#carryout">Carryout</a>
           </div>
